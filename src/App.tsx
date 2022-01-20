@@ -1,10 +1,9 @@
 import { useState } from 'react'
-import { Auth } from './features/auth/auth'
-
+import { Counter } from './features/counter/counter'
 function App() {
   return (
     <div className="App">
-        <Auth/>
+        <Counter/>
     </div>
   )
 }

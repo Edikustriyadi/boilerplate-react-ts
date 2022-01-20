@@ -11,9 +11,10 @@ export function Counter() {
   const dispatch = useAppDispatch()
   // omit rendering logic
   return (
-      <div>
+      <div className='counter'>
           <h1>{count}</h1>
           <button type='button' onClick={()=> dispatch(increment())}>+</button>
+          <button type='button' onClick={()=> dispatch(decrement())}>-</button>
       </div>
   )
 }
