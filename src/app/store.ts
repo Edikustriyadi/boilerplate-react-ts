@@ -4,7 +4,7 @@ import counterSlice from '../features/counter/counterSlice'
 export const store = configureStore({
   reducer: {
     counter: counterSlice,
-  }
+  },
 })
 
 // Infer the `RootState` and `AppDispatch` types from the store itself
